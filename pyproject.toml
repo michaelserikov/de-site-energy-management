@@ -1,0 +1,20 @@
+[project]
+name = "siteems"
+version = "0.1.0"
+description = "Forecast-based energy management of an industrial site: PV, battery and cooling flexibility under day-ahead prices and a demand charge"
+requires-python = ">=3.11"
+dependencies = ["pandas>=2.2", "numpy>=2.0", "scipy>=1.13", "scikit-learn>=1.5", "matplotlib>=3.9"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "tests"]
+testpaths = ["tests"]

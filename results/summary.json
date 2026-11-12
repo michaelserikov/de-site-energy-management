@@ -1,0 +1,40 @@
+{
+  "hours": 11472,
+  "interpolated_hours": 54,
+  "mean_load_kw": 81.85435800209204,
+  "max_load_kw": 235.61099999999988,
+  "pv_scale_kw_per_measured": 9.213131611612047,
+  "missing_naive": 0,
+  "missing_ml": 0,
+  "missing_ml_weather": 0,
+  "threshold_kw": 166.55474628444387,
+  "forecast_scores": {
+    "naive": {
+      "load_mae": 16.237938013698642,
+      "load_rmse": 26.72621332717142,
+      "cooling_mae": 4.583234132420438,
+      "cooling_rmse": 10.918681688612299,
+      "pv_mae": 8.963112991673237,
+      "pv_rmse": 19.089950808005188,
+      "daily_peak_mae": 28.061063013698732
+    },
+    "ml": {
+      "load_mae": 14.965747831050221,
+      "load_rmse": 22.01589042142716,
+      "cooling_mae": 6.5211811643835365,
+      "cooling_rmse": 11.250820396961295,
+      "pv_mae": 10.379376032172894,
+      "pv_rmse": 21.135757611555757,
+      "daily_peak_mae": 25.24989589041112
+    },
+    "ml_weather": {
+      "load_mae": 13.257615981735162,
+      "load_rmse": 20.75621490448004,
+      "cooling_mae": 3.1736415525114032,
+      "cooling_rmse": 6.765154045872392,
+      "pv_mae": 6.521851896372328,
+      "pv_rmse": 14.04211303243701,
+      "daily_peak_mae": 25.891953424657675
+    }
+  }
+}

@@ -1,0 +1,4 @@
+forecast,load_mae,load_rmse,cooling_mae,cooling_rmse,pv_mae,pv_rmse,daily_peak_mae
+naive,16.238,26.726,4.583,10.919,8.963,19.090,28.061
+ml,14.966,22.016,6.521,11.251,10.379,21.136,25.250
+ml_weather,13.258,20.756,3.174,6.765,6.522,14.042,25.892
